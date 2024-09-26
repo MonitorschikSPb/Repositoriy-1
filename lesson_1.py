@@ -1,2 +1,3 @@
-import math
-print(25)
+a=input()
+b=input()
+c=print
