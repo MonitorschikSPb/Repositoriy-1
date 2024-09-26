@@ -15,3 +15,10 @@ if a>20:
 else:
     print('No discount')
     """
+a=int(input())
+if a==1:
+    print('January', 'Winter')
+elif a==2:
+    print('February', 'Winter')
+else:
+    print('Error! This number is incorrect!')
