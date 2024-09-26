@@ -1,4 +1,4 @@
 import math
-a = int(input('Введите длину радиуса'))
-b = 2*math.pi*a
+a = int(input())
+b = 2*a*math.pi
 print(round(b, 2))
