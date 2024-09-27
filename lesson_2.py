@@ -32,5 +32,13 @@ elif a==7:
     print('Jule', 'Summer')
 elif a==8:
     print('August', 'Summer')
+elif a==9:
+    print('September', 'Autumn')
+elif a==10:
+    print('October', 'Autumn')
+elif a==11:
+    print('November', 'Autumn')
+elif a==12:
+    print('December', 'Winter')
 else:
     print('Error! This number is incorrect!')
