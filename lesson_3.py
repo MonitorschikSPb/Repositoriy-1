@@ -8,7 +8,7 @@ else:
         sum += i*i*i
     print(f'The sum of cubes of all natural nubers up to {n} is {sum}')
     print()
-"""
+
 print('The table of multiplication')
 for i in range(1, 10):
     for k in range(1, 10):
@@ -17,3 +17,11 @@ for i in range(1, 10):
         else:
             print(k*i, end='  ')
     print()
+"""
+print('The uncommon table of multiplication')
+for i in range(1, 10):
+    for k in range(1, 10):
+        print((10-k)*i, end=' ')
+    else:
+        print((10-k)*i, end='  ')
+print()
