@@ -1,3 +1,4 @@
+"""
 n = int(input())
 sum = 0
 if n>100:
@@ -5,5 +6,14 @@ if n>100:
 else:
     for i in range(n+1):
         sum += i*i*i
-    print('Summary of cubes ever numbers is from', n, 'to', sum)
-    
+    print(f'The sum of cubes of all natural nubers up to {n} is {sum}')
+    print()
+"""
+print('The table of multiplication')
+for i in range(1, 10):
+    for k in range(1, 10):
+        if (k*i)/10>=1:
+            print(k*i, end=' ')
+        else:
+            print(k*i, end='  ')
+    print()
