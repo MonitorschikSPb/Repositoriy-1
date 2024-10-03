@@ -21,7 +21,8 @@ for i in range(1, 10):
 print('The uncommon table of multiplication')
 for i in range(1, 10):
     for k in range(1, 10):
-        print((10-k)*i, end=' ')
-    else:
-        print((10-k)*i, end='  ')
-print()
+        if ((10-k)*i)/10>=1:
+            print((10-k)*i, end=' ')
+        else:
+            print((10-k)*i, end='  ')
+    print()
